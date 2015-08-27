@@ -21,6 +21,17 @@ namespace StuxGeek.Controllers
         [HttpPost]
         public ActionResult Register(RegisterViewModel newUser)
         {
+
+            if (db.Users.FirstOrDefault(x => x.Email.ToLower() == newUser.Email.ToLower()) != null)
+            {
+                ModelState.AddModelError("Email", "Email address already exists. Please enter a different email address.");
+            }
+
+            if (db.Users.FirstOrDefault(x => x.Username == newUser.Username) != null)
+            {
+                ModelState.AddModelError("Username", "Username address already exists. Please enter a different Username");
+            }
+
             if (ModelState.IsValid) { 
 
                 User user = new User();
