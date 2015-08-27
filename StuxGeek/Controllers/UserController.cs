@@ -64,9 +64,7 @@ namespace StuxGeek.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    User user = db.Users.FirstOrDefault(x => x.Email.ToLower() == login.Email.ToLower() && x.Password == login.Password);
-                    //FormsAuthentication.SetAuthCookie(user.Username, false);
-                    
+                    User user = db.Users.FirstOrDefault(x => x.Email.ToLower() == login.Email.ToLower() && x.Password == login.Password);                    
                     FormsAuthentication.GetAuthCookie(user.Username, false);
 
                     return RedirectToAction("Index", "Home");
@@ -74,10 +72,15 @@ namespace StuxGeek.Controllers
             }
             else 
             {
-                ModelState.AddModelError("User", "Invalid Credentials");
+                ModelState.AddModelError("", "Invalid Credentials");
             }
-
             return View();
+        }
+
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToAction("Index","Home");
         }
 
         public ActionResult LostPassword()
