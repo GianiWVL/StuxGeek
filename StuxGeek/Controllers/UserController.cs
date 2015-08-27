@@ -66,7 +66,7 @@ namespace StuxGeek.Controllers
                 {
                     User user = db.Users.FirstOrDefault(x => x.Email.ToLower() == login.Email.ToLower() && x.Password == login.Password);                    
                     FormsAuthentication.SetAuthCookie(user.Username, false);
-                    //Request.
+
                     return RedirectToAction("Index", "Home");
                 }
             }
