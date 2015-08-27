@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using StuxGeek.Models;
+using System.Web.Security;
 
 namespace StuxGeek.Controllers
 {
@@ -55,11 +56,29 @@ namespace StuxGeek.Controllers
             return View();
         }
 
-        /*[HttpPost]
-        public ActionResult Login()
+        [HttpPost]
+        public ActionResult Login(LoginViewModel login)
         {
+
+            if (db.Users.FirstOrDefault(x => x.Email.ToLower() == login.Email.ToLower() && x.Password == login.Password) != null)
+            {
+                if (ModelState.IsValid)
+                {
+                    User user = db.Users.FirstOrDefault(x => x.Email.ToLower() == login.Email.ToLower() && x.Password == login.Password);
+                    //FormsAuthentication.SetAuthCookie(user.Username, false);
+                    
+                    FormsAuthentication.GetAuthCookie(user.Username, false);
+
+                    return RedirectToAction("Index", "Home");
+                }
+            }
+            else 
+            {
+                ModelState.AddModelError("User", "Invalid Credentials");
+            }
+
             return View();
-        }*/
+        }
 
         public ActionResult LostPassword()
         {

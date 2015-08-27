@@ -11,6 +11,12 @@ namespace StuxGeek.Controllers
         // GET: Admin
         public ActionResult Index()
         {
+
+            if (!User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
             return View();
         }
     }
