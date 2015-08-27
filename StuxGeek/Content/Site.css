@@ -1,0 +1,72 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.padding-right-half{
+    padding-right: 0.5em;
+}
+
+.padding-left-half{
+    padding-left: 0.5em;
+}
+
+.padding-top-half{
+    padding-top: 0.5em;
+}
+
+.padding-bot-half{
+    padding-bottom: 0.5em;
+}
+
+.padding-right-1{
+    padding-right: 1em;
+}
+
+.padding-left-1{
+    padding-left: 1em;
+}
+
+.padding-top-1{
+    padding-top: 1em;
+}
+
+.padding-bot-1{
+    padding-bottom: 1em;
+}
+
+.margin-right-half{
+    margin-right: 0.5em;
+}
+
+.margin-left-half{
+    margin-left: 0.5em;
+}
+
+.margin-top-half{
+    margin-top: 0.5em;
+}
+
+.margin-bot-half{
+    margin-bottom: 0.5em;
+}

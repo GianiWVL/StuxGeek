@@ -1,0 +1,60 @@
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\StuxGeek.dll.config
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\StuxGeek.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\StuxGeek.pdb
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\Antlr3.Runtime.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\Microsoft.Web.Infrastructure.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\Newtonsoft.Json.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.Helpers.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.Mvc.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.Optimization.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.Razor.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.WebPages.Deployment.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.WebPages.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.WebPages.Razor.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\WebGrease.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.Helpers.xml
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.Mvc.xml
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.Optimization.xml
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.Razor.xml
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.WebPages.xml
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.WebPages.Deployment.xml
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\System.Web.WebPages.Razor.xml
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\Antlr3.Runtime.pdb
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\Newtonsoft.Json.xml
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\obj\Debug\StuxGeek.csprojResolveAssemblyReference.cache
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\obj\Debug\StuxGeek.dll
+c:\users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\obj\Debug\StuxGeek.pdb
+C:\Users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\EntityFramework.dll
+C:\Users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\EntityFramework.SqlServer.dll
+C:\Users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\EntityFramework.xml
+C:\Users\giani\documents\visual studio 2013\Projects\StuxGeek\StuxGeek\bin\EntityFramework.SqlServer.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\StuxGeek.dll.config
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\StuxGeek.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\StuxGeek.pdb
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\Antlr3.Runtime.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\EntityFramework.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\EntityFramework.SqlServer.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\Newtonsoft.Json.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.Helpers.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.Mvc.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.Optimization.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.Razor.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.WebPages.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.WebPages.Razor.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\WebGrease.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\EntityFramework.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\EntityFramework.SqlServer.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.Helpers.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.Mvc.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.Optimization.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.Razor.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.WebPages.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\System.Web.WebPages.Razor.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\Antlr3.Runtime.pdb
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\bin\Newtonsoft.Json.xml
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\obj\Debug\StuxGeek.csprojResolveAssemblyReference.cache
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\obj\Debug\StuxGeek.dll
+C:\Dev\STUXGEEK\new-stuxgeek\StuxGeek\StuxGeek\obj\Debug\StuxGeek.pdb

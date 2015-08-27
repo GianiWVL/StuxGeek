@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Admin Center</h2>
+
+<div class="row padding-bot-1 padding-left-1 padding-right-1">
+    <div class="col-xs-4">
+        <div class="padding-right-half">
+            <div class="row margin-bot-half" style="border: 1px solid black">
+                <h4 class="text-center">Social Media</h4>
+                <ul class="list-unstyled">
+                    <li class="padding-left-1">@Html.ActionLink("Feeds", "Index", "Social")</li>
+                </ul>
+            </div>
+            <div class="row margin-bot-half" style="border: 1px solid black">
+                <h4 class="text-center">Posts</h4>
+                <ul class="list-unstyled">
+                    <li class="padding-left-1">@Html.ActionLink("New Post", "New", "Post")</li>
+                    <li class="padding-left-1">@Html.ActionLink("Manage Posts", "Manage", "Post")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="padding-right-half padding-left-half">
+            <div class="row margin-bot-half" style="border: 1px solid black">
+                <h4 class="text-center">Social Media</h4>
+            </div>
+            <div class="row margin-bot-half" style="border: 1px solid black">
+                <h4 class="text-center">Other Ti</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="padding-right-half padding-left-half">
+            <div class="row margin-bot-half" style="border: 1px solid black">
+                <h4 class="text-center">Social Media</h4>
+            </div>
+            <div class="row margin-bot-half" style="border: 1px solid black">
+                <h4 class="text-center">Other Ti</h4>
+            </div>
+        </div>
+    </div>
+</div>
