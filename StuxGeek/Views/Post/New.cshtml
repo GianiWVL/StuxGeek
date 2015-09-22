@@ -1,7 +1,13 @@
-﻿
+﻿@model StuxGeek.Models.Post
 @{
     ViewBag.Title = "New";
 }
 
-<h2>New</h2>
+<h2>New Post</h2>
 
+@using (Html.BeginForm())
+{
+    @Html.TextBoxFor(x => x.Title);
+    
+    <input type="submit" />
+}

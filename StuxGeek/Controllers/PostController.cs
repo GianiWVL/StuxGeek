@@ -3,19 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using StuxGeek.Models;
 
 namespace StuxGeek.Controllers
 {
     public class PostController : Controller
     {
-        // GET: Post
-        public ActionResult Index()
+
+        StuxGeekContext db = new StuxGeekContext();
+
+        [HttpGet]
+        public ActionResult New()
         {
             return View();
         }
 
-        public ActionResult New()
+        [HttpPost]
+        public ActionResult New(Post post)
         {
+            db.Posts.Add(post);
+            db.SaveChanges();
             return View();
         }
 
