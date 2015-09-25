@@ -13,10 +13,7 @@ namespace StuxGeek.Controllers
 
         public ActionResult Index()
         {
-            List<Post> listOfPosts = new List<Post>();
-            listOfPosts = db.Posts.ToList();
-            //listOfPosts = db.Posts.Take(10).ToList();
-            return View(listOfPosts);
+            return View(db.Posts.ToList());
         }
     }
 }

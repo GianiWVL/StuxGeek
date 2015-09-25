@@ -21,8 +21,12 @@ namespace StuxGeek.Controllers
         [HttpPost]
         public ActionResult New(Post post)
         {
-            db.Posts.Add(post);
-            db.SaveChanges();
+            if (ModelState.IsValid)
+            {
+                db.Posts.Add(post);
+                db.SaveChanges();
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 
