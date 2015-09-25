@@ -1,21 +1,22 @@
-﻿<h2>Index</h2>
+﻿@model List<StuxGeek.Models.Post>
+
+<h2>Index</h2>
 <div class="row padding-bot-1 padding-left-1 padding-right-1">
     <div class="col-xs-8">
         <div class="padding-right-half">
-            <div class="row margin-bot-half" style="border: 1px solid black">
-                <div class="image-wrapper">
-                    <img src="~/Content/Images/Mt_McKinley_wide_view_from_Kashwitna_Lake.jpg" class="img-responsive" alt=" sometext"/>
-                    <h3>This is an awesome article!</h3>
+            @foreach (StuxGeek.Models.Post item in Model)
+            {
+                <div class="row margin-bot-half" style="border: 1px solid black">
+                    <div class="image-wrapper">
+                        <img src="~/Content/Images/Mt_McKinley_wide_view_from_Kashwitna_Lake.jpg" class="img-responsive" alt=" sometext" />
+                        <h3>@item.Title</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="row margin-bot-half" style="border: 1px solid black">
-                <div class="image-wrapper">
-                    <img src="~/Content/Images/Mt_McKinley_wide_view_from_Kashwitna_Lake.jpg" class="img-responsive" alt=" sometext"/>
-                    <h3>Notice me senpai!</h3>                   
-                </div>
-            </div>
+            }   
         </div>
+
     </div>
+
     <div class="col-xs-4">
         <div class="padding-left-half">
             <div class="row margin-bot-half" style="border: 1px solid black">
