@@ -35,5 +35,20 @@ namespace StuxGeek.Controllers
             return View();
         }
 
+        [HttpGet]
+        [Route("post/read/{postTitle}")]
+        public ActionResult Read(string postTitle)
+        {
+            Post post = db.Posts.FirstOrDefault(x => x.Title.Equals(postTitle));
+            if (post != null)
+            {
+                return View(post);
+            }
+            else {
+                return RedirectToAction("index", "home");
+            }
+            
+        }
+
     }
 }

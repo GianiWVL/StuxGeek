@@ -178,6 +178,7 @@
     <Content Include="Views\Social\Manage.cshtml" />
     <Content Include="Views\Post\New.cshtml" />
     <Content Include="Views\Post\Manage.cshtml" />
+    <Content Include="Views\Post\Read.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
