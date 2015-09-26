@@ -6,7 +6,7 @@
         <div class="padding-right-half">
             @foreach (StuxGeek.Models.Post item in Model)
             {
-                <a href="#">
+                <a href="@Url.Action("Read", "Post", new { postTitle = item.Title.Replace(" ", "-") })">
                     <div class="row margin-bot-half" style="border: 1px solid black">
                         <div class="image-wrapper">
                             <img src="~/Content/Images/Mt_McKinley_wide_view_from_Kashwitna_Lake.jpg" class="img-responsive" alt="sometext" />

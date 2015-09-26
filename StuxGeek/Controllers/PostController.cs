@@ -39,7 +39,7 @@ namespace StuxGeek.Controllers
         [Route("post/read/{postTitle}")]
         public ActionResult Read(string postTitle)
         {
-            Post post = db.Posts.FirstOrDefault(x => x.Title.Equals(postTitle));
+            Post post = db.Posts.FirstOrDefault(x => x.Title.Equals(postTitle.Replace("-"," ")));
             if (post != null)
             {
                 return View(post);
