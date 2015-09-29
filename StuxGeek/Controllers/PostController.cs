@@ -15,12 +15,22 @@ namespace StuxGeek.Controllers
         [HttpGet]
         public ActionResult New()
         {
+            if (!User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
             return View();
         }
 
         [HttpPost]
         public ActionResult New(Post post)
         {
+            if (!User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
             if (ModelState.IsValid)
             {
                 post.PostDate = DateTime.Now;
@@ -35,6 +45,12 @@ namespace StuxGeek.Controllers
 
         public ActionResult Manage()
         {
+
+            if (!User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
             return View();
         }
 
