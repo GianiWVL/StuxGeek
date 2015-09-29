@@ -23,6 +23,9 @@ namespace StuxGeek.Controllers
         {
             if (ModelState.IsValid)
             {
+                post.PostDate = DateTime.Now;
+                post.Author = User.Identity.Name;
+
                 db.Posts.Add(post);
                 db.SaveChanges();
                 return RedirectToAction("Index", "Home");

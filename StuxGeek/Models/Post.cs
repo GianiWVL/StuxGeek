@@ -18,9 +18,17 @@ namespace StuxGeek.Models
         [Required]
         public string Description { get; set; }
 
-        [Required]
+        public string Content { get; set; }
+
+        [Required] //Meerdere categories
         public string Category { get; set; }
+        
+        public string Author { get; set; }
 
+        [Required] //meerdere Tags
+        public string Tag { get; set; }
 
+        
+        public DateTime PostDate { get; set; }
     }
 }
